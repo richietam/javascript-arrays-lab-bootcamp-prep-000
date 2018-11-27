@@ -11,3 +11,8 @@ function destructivelyPrependKitten () {
   destructivelyPrependKitten = kittens.unshift("Bob")
   return destructivelyPrependKitten
 }
+
+function destructivelyRemoveLastKitten() {
+  destructivelyRemoveLastKitten = kittens.pop
+  return destructivelyRemoveLastKitten
+}
