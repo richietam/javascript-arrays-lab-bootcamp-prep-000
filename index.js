@@ -13,6 +13,6 @@ function destructivelyPrependKitten () {
 }
 
 function destructivelyRemoveLastKitten() {
-  destructivelyRemoveLastKitten = kittens.pop
+  destructivelyRemoveLastKitten = kittens.pop()
   return destructivelyRemoveLastKitten
 }
