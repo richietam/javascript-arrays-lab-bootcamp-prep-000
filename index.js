@@ -8,6 +8,6 @@ function destructivelyAppendKitten() {
 }
 
 function destructivelyPrependKitten () {
-  destructivelyPrependKitten = kittens.push("Ralph")
+  destructivelyPrependKitten = kittens.push("Bob")
   return destructivelyPrependKitten
 }
