@@ -9,6 +9,5 @@ function destructivelyAppendKitten() {
 
 function destructivelyPrependKitten () {
   var kittens = ["Milo", "Otis", "Garfield"]
-  destructivelyPrependKitten = kittens.push("Bob")
-  console.log(destructivelyPrependKitten.push("Bob")
+  console.log(kittens.push("Bob")
 }
